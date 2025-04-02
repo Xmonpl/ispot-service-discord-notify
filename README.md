@@ -27,6 +27,8 @@ DISCORD_WEBHOOK_URL="your_discord_webhook_url"
 ## 💡 Usage 
 
 ```bash
+git clone https://github.com/Xmonpl/ispot-service-discord-notify
+cd ispot-service-discord-notify
 chmod +x order_status_checker.sh
 nohup ./order_status_checker.sh &
 ```
