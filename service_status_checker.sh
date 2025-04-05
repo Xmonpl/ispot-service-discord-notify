@@ -18,7 +18,7 @@ while true; do
     # 💬 Send message to Discord webhook
     curl -s -H "Content-Type: application/json" \
         -X POST \
-        -d "{\"content\": \"📦 Order status: $STATUS\"}" \
+        -d "{\"content\": \"📦 Service status: $STATUS\"}" \
         "$DISCORD_WEBHOOK_URL"
 
     # 💤 Wait 5 minutes
